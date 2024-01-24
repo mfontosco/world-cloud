@@ -8,7 +8,7 @@ const WordCloud = ({ data }) => {
         <span
           key={index}
           style={{ fontSize: `${item.frequency * 8}px` }}
-          className="m-2 inline-block font-bold border border-black"
+          className="m-2 inline-block font-bold "
         >
           {item.word}
         </span>
